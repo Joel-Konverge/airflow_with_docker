@@ -1,0 +1,88 @@
+[2022-05-22 21:29:05,897] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.check_api 2022-05-21T00:00:00+00:00 [queued]>
+[2022-05-22 21:29:05,927] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.check_api 2022-05-21T00:00:00+00:00 [queued]>
+[2022-05-22 21:29:05,928] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 21:29:05,930] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-22 21:29:05,931] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 21:29:05,994] {taskinstance.py:1107} INFO - Executing <Task(HttpSensor): check_api> on 2022-05-21T00:00:00+00:00
+[2022-05-22 21:29:05,998] {standard_task_runner.py:52} INFO - Started process 95 to run task
+[2022-05-22 21:29:06,008] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'book_db', 'check_api', '2022-05-21T00:00:00+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/books_db.py', '--cfg-path', '/tmp/tmp5ur6u18c', '--error-file', '/tmp/tmph2npkjuf']
+[2022-05-22 21:29:06,012] {standard_task_runner.py:77} INFO - Job 4: Subtask check_api
+[2022-05-22 21:29:06,100] {logging_mixin.py:104} INFO - Running <TaskInstance: book_db.check_api 2022-05-21T00:00:00+00:00 [running]> on host 929b3ffb0527
+[2022-05-22 21:29:06,274] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=book_db
+AIRFLOW_CTX_TASK_ID=check_api
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-21T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-21T00:00:00+00:00
+[2022-05-22 21:29:06,276] {http.py:101} INFO - Poking: new
+[2022-05-22 21:29:06,301] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 231, in execute
+    while not self.poke(context):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/sensors/http.py", line 117, in poke
+    raise exc
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/sensors/http.py", line 103, in poke
+    response = self.hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/hooks/http.py", line 122, in run
+    session = self.get_conn(headers)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/hooks/http.py", line 72, in get_conn
+    conn = self.get_connection(self.http_conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 381, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `book_api` isn't defined
+[2022-05-22 21:29:06,305] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=book_db, task_id=check_api, execution_date=20220521T000000, start_date=20220522T212905, end_date=20220522T212906
+[2022-05-22 21:29:06,380] {local_task_job.py:151} INFO - Task exited with return code 1
+[2022-05-22 22:02:44,051] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.check_api 2022-05-21T00:00:00+00:00 [queued]>
+[2022-05-22 22:02:44,073] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.check_api 2022-05-21T00:00:00+00:00 [queued]>
+[2022-05-22 22:02:44,075] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 22:02:44,076] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-22 22:02:44,077] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 22:02:44,156] {taskinstance.py:1107} INFO - Executing <Task(HttpSensor): check_api> on 2022-05-21T00:00:00+00:00
+[2022-05-22 22:02:44,173] {standard_task_runner.py:52} INFO - Started process 53 to run task
+[2022-05-22 22:02:44,190] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'book_db', 'check_api', '2022-05-21T00:00:00+00:00', '--job-id', '2', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/books_db.py', '--cfg-path', '/tmp/tmp1rptuqos', '--error-file', '/tmp/tmprai5r1_6']
+[2022-05-22 22:02:44,194] {standard_task_runner.py:77} INFO - Job 2: Subtask check_api
+[2022-05-22 22:02:44,517] {logging_mixin.py:104} INFO - Running <TaskInstance: book_db.check_api 2022-05-21T00:00:00+00:00 [running]> on host 929b3ffb0527
+[2022-05-22 22:02:44,667] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=book_db
+AIRFLOW_CTX_TASK_ID=check_api
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-21T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-21T00:00:00+00:00
+[2022-05-22 22:02:44,669] {http.py:101} INFO - Poking: new
+[2022-05-22 22:02:44,695] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 231, in execute
+    while not self.poke(context):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/sensors/http.py", line 117, in poke
+    raise exc
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/sensors/http.py", line 103, in poke
+    response = self.hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/hooks/http.py", line 122, in run
+    session = self.get_conn(headers)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/http/hooks/http.py", line 72, in get_conn
+    conn = self.get_connection(self.http_conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 381, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `book_api` isn't defined
+[2022-05-22 22:02:44,701] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=book_db, task_id=check_api, execution_date=20220521T000000, start_date=20220522T220244, end_date=20220522T220244
+[2022-05-22 22:02:45,032] {local_task_job.py:151} INFO - Task exited with return code 1

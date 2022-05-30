@@ -1,0 +1,27 @@
+[2022-05-26 21:01:19,797] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: trigger_rule.parallel_tasks2.task_6 scheduled__2022-05-25T00:00:00+00:00 [queued]>
+[2022-05-26 21:01:20,058] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: trigger_rule.parallel_tasks2.task_6 scheduled__2022-05-25T00:00:00+00:00 [queued]>
+[2022-05-26 21:01:20,084] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-26 21:01:20,087] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-05-26 21:01:20,101] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-26 21:01:20,425] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): parallel_tasks2.task_6> on 2022-05-25 00:00:00+00:00
+[2022-05-26 21:01:20,582] {standard_task_runner.py:52} INFO - Started process 504 to run task
+[2022-05-26 21:01:20,841] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'trigger_rule', 'parallel_tasks2.task_6', 'scheduled__2022-05-25T00:00:00+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/trigger_rule.py', '--cfg-path', '/tmp/tmpvcs0nhbw', '--error-file', '/tmp/tmpt4td390o']
+[2022-05-26 21:01:20,888] {standard_task_runner.py:80} INFO - Job 16: Subtask parallel_tasks2.task_6
+[2022-05-26 21:01:22,172] {task_command.py:369} INFO - Running <TaskInstance: trigger_rule.parallel_tasks2.task_6 scheduled__2022-05-25T00:00:00+00:00 [running]> on host 2fe522ea8532
+[2022-05-26 21:01:23,710] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=trigger_rule
+AIRFLOW_CTX_TASK_ID=parallel_tasks2.task_6
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-25T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-25T00:00:00+00:00
+[2022-05-26 21:01:23,722] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-05-26 21:01:23,779] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'sleep 1']
+[2022-05-26 21:01:24,001] {subprocess.py:85} INFO - Output:
+[2022-05-26 21:01:25,071] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-05-26 21:01:26,628] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=trigger_rule, task_id=parallel_tasks2.task_6, execution_date=20220525T000000, start_date=20220526T210119, end_date=20220526T210126
+[2022-05-26 21:01:27,115] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-05-26 21:01:27,564] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

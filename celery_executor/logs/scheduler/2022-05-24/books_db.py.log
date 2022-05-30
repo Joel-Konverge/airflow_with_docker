@@ -1,0 +1,179 @@
+[2022-05-24 12:41:59,481] {processor.py:153} INFO - Started process (PID=58) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:41:59,484] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:41:59,492] {logging_mixin.py:115} INFO - [2022-05-24 12:41:59,492] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:42:05,973] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:42:06,647] {logging_mixin.py:115} INFO - [2022-05-24 12:42:06,647] {manager.py:508} INFO - Created Permission View: can delete on DAG:book_db
+[2022-05-24 12:42:06,716] {logging_mixin.py:115} INFO - [2022-05-24 12:42:06,716] {manager.py:508} INFO - Created Permission View: can edit on DAG:book_db
+[2022-05-24 12:42:06,779] {logging_mixin.py:115} INFO - [2022-05-24 12:42:06,779] {manager.py:508} INFO - Created Permission View: can read on DAG:book_db
+[2022-05-24 12:42:06,781] {logging_mixin.py:115} INFO - [2022-05-24 12:42:06,781] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:42:06,855] {logging_mixin.py:115} INFO - [2022-05-24 12:42:06,855] {dag.py:2390} INFO - Creating ORM DAG for book_db
+[2022-05-24 12:42:06,957] {logging_mixin.py:115} INFO - [2022-05-24 12:42:06,957] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-23T00:00:00+00:00, run_after=2022-05-24T00:00:00+00:00
+[2022-05-24 12:42:07,056] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 7.597 seconds
+[2022-05-24 12:42:53,785] {processor.py:153} INFO - Started process (PID=123) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:42:53,793] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:42:53,805] {logging_mixin.py:115} INFO - [2022-05-24 12:42:53,797] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:42:55,860] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:42:55,943] {logging_mixin.py:115} INFO - [2022-05-24 12:42:55,943] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:42:55,980] {logging_mixin.py:115} INFO - [2022-05-24 12:42:55,980] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-23T00:00:00+00:00, run_after=2022-05-24T00:00:00+00:00
+[2022-05-24 12:42:55,997] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 2.219 seconds
+[2022-05-24 12:43:26,273] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:43:26,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:43:26,283] {logging_mixin.py:115} INFO - [2022-05-24 12:43:26,282] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:43:26,906] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:43:26,954] {logging_mixin.py:115} INFO - [2022-05-24 12:43:26,953] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:43:26,983] {logging_mixin.py:115} INFO - [2022-05-24 12:43:26,983] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-23T00:00:00+00:00, run_after=2022-05-24T00:00:00+00:00
+[2022-05-24 12:43:26,998] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 0.734 seconds
+[2022-05-24 12:43:57,401] {processor.py:153} INFO - Started process (PID=236) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:43:57,406] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:43:57,411] {logging_mixin.py:115} INFO - [2022-05-24 12:43:57,410] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:43:58,489] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:43:58,554] {logging_mixin.py:115} INFO - [2022-05-24 12:43:58,554] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:43:58,654] {logging_mixin.py:115} INFO - [2022-05-24 12:43:58,654] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-23T00:00:00+00:00, run_after=2022-05-24T00:00:00+00:00
+[2022-05-24 12:43:58,707] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.318 seconds
+[2022-05-24 12:44:31,213] {processor.py:153} INFO - Started process (PID=298) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:44:31,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:44:31,245] {logging_mixin.py:115} INFO - [2022-05-24 12:44:31,245] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:44:34,759] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:44:35,024] {logging_mixin.py:115} INFO - [2022-05-24 12:44:35,023] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:44:35,130] {logging_mixin.py:115} INFO - [2022-05-24 12:44:35,129] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-23T00:00:00+00:00, run_after=2022-05-24T00:00:00+00:00
+[2022-05-24 12:44:35,180] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 3.994 seconds
+[2022-05-24 12:45:05,427] {processor.py:153} INFO - Started process (PID=355) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:45:05,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:45:05,436] {logging_mixin.py:115} INFO - [2022-05-24 12:45:05,435] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:45:06,097] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:45:06,177] {logging_mixin.py:115} INFO - [2022-05-24 12:45:06,176] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:45:06,219] {logging_mixin.py:115} INFO - [2022-05-24 12:45:06,219] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:45:06,265] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 0.855 seconds
+[2022-05-24 12:45:37,105] {processor.py:153} INFO - Started process (PID=410) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:45:37,108] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:45:37,110] {logging_mixin.py:115} INFO - [2022-05-24 12:45:37,110] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:45:38,039] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:45:38,094] {logging_mixin.py:115} INFO - [2022-05-24 12:45:38,093] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:45:38,130] {logging_mixin.py:115} INFO - [2022-05-24 12:45:38,130] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:45:38,152] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.051 seconds
+[2022-05-24 12:46:08,275] {processor.py:153} INFO - Started process (PID=468) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:46:08,278] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:46:08,279] {logging_mixin.py:115} INFO - [2022-05-24 12:46:08,279] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:46:09,049] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:46:09,118] {logging_mixin.py:115} INFO - [2022-05-24 12:46:09,117] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:46:09,149] {logging_mixin.py:115} INFO - [2022-05-24 12:46:09,149] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:46:09,168] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 0.897 seconds
+[2022-05-24 12:46:39,366] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:46:39,372] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:46:39,376] {logging_mixin.py:115} INFO - [2022-05-24 12:46:39,376] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:46:40,358] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:46:40,408] {logging_mixin.py:115} INFO - [2022-05-24 12:46:40,407] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:46:40,439] {logging_mixin.py:115} INFO - [2022-05-24 12:46:40,439] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:46:40,455] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.102 seconds
+[2022-05-24 12:47:11,857] {processor.py:153} INFO - Started process (PID=590) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:47:11,862] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:47:11,865] {logging_mixin.py:115} INFO - [2022-05-24 12:47:11,865] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:47:13,170] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:47:13,300] {logging_mixin.py:115} INFO - [2022-05-24 12:47:13,299] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:47:13,408] {logging_mixin.py:115} INFO - [2022-05-24 12:47:13,407] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:47:13,498] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.656 seconds
+[2022-05-24 12:47:43,695] {processor.py:153} INFO - Started process (PID=645) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:47:43,714] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:47:43,724] {logging_mixin.py:115} INFO - [2022-05-24 12:47:43,723] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:47:45,204] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:47:45,296] {logging_mixin.py:115} INFO - [2022-05-24 12:47:45,295] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:47:45,337] {logging_mixin.py:115} INFO - [2022-05-24 12:47:45,337] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:47:45,359] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.700 seconds
+[2022-05-24 12:48:18,730] {processor.py:153} INFO - Started process (PID=710) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:48:18,735] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:48:18,737] {logging_mixin.py:115} INFO - [2022-05-24 12:48:18,736] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:48:20,337] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:48:20,443] {logging_mixin.py:115} INFO - [2022-05-24 12:48:20,442] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:48:20,510] {logging_mixin.py:115} INFO - [2022-05-24 12:48:20,510] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:48:20,561] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.838 seconds
+[2022-05-24 12:48:51,117] {processor.py:153} INFO - Started process (PID=766) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:48:51,118] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:48:51,121] {logging_mixin.py:115} INFO - [2022-05-24 12:48:51,121] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:48:51,737] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:48:51,791] {logging_mixin.py:115} INFO - [2022-05-24 12:48:51,790] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:48:51,819] {logging_mixin.py:115} INFO - [2022-05-24 12:48:51,819] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:48:51,837] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 0.758 seconds
+[2022-05-24 12:49:22,273] {processor.py:153} INFO - Started process (PID=833) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:49:22,275] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:49:22,279] {logging_mixin.py:115} INFO - [2022-05-24 12:49:22,278] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:49:23,348] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:49:23,466] {logging_mixin.py:115} INFO - [2022-05-24 12:49:23,466] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:49:23,518] {logging_mixin.py:115} INFO - [2022-05-24 12:49:23,518] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:49:23,556] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.298 seconds
+[2022-05-24 12:49:53,946] {processor.py:153} INFO - Started process (PID=888) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:49:53,949] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:49:53,952] {logging_mixin.py:115} INFO - [2022-05-24 12:49:53,952] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:49:54,578] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:49:54,627] {logging_mixin.py:115} INFO - [2022-05-24 12:49:54,626] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:49:54,662] {logging_mixin.py:115} INFO - [2022-05-24 12:49:54,661] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:49:54,678] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 0.740 seconds
+[2022-05-24 12:50:26,071] {processor.py:153} INFO - Started process (PID=956) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:50:26,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:50:26,098] {logging_mixin.py:115} INFO - [2022-05-24 12:50:26,097] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:50:27,203] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:50:27,246] {logging_mixin.py:115} INFO - [2022-05-24 12:50:27,245] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:50:27,271] {logging_mixin.py:115} INFO - [2022-05-24 12:50:27,271] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:50:27,290] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.277 seconds
+[2022-05-24 12:50:57,922] {processor.py:153} INFO - Started process (PID=1012) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:50:57,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:50:57,935] {logging_mixin.py:115} INFO - [2022-05-24 12:50:57,935] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:50:59,192] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:50:59,306] {logging_mixin.py:115} INFO - [2022-05-24 12:50:59,304] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:50:59,383] {logging_mixin.py:115} INFO - [2022-05-24 12:50:59,383] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:50:59,403] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.485 seconds
+[2022-05-24 12:51:30,073] {processor.py:153} INFO - Started process (PID=1076) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:51:30,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:51:30,087] {logging_mixin.py:115} INFO - [2022-05-24 12:51:30,087] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:51:31,506] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:51:31,637] {logging_mixin.py:115} INFO - [2022-05-24 12:51:31,635] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:51:31,720] {logging_mixin.py:115} INFO - [2022-05-24 12:51:31,720] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:51:31,781] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.733 seconds
+[2022-05-24 12:52:01,944] {processor.py:153} INFO - Started process (PID=1133) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:52:01,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:52:01,951] {logging_mixin.py:115} INFO - [2022-05-24 12:52:01,951] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:52:02,647] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:52:02,719] {logging_mixin.py:115} INFO - [2022-05-24 12:52:02,718] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:52:02,810] {logging_mixin.py:115} INFO - [2022-05-24 12:52:02,810] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:52:02,859] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 0.924 seconds
+[2022-05-24 12:52:33,483] {processor.py:153} INFO - Started process (PID=1189) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:52:33,500] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:52:33,503] {logging_mixin.py:115} INFO - [2022-05-24 12:52:33,503] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:52:35,744] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:52:35,836] {logging_mixin.py:115} INFO - [2022-05-24 12:52:35,835] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:52:35,933] {logging_mixin.py:115} INFO - [2022-05-24 12:52:35,932] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:52:35,963] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 2.530 seconds
+[2022-05-24 12:53:06,454] {processor.py:153} INFO - Started process (PID=1253) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:53:06,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:53:06,470] {logging_mixin.py:115} INFO - [2022-05-24 12:53:06,470] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:53:08,229] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:53:08,436] {logging_mixin.py:115} INFO - [2022-05-24 12:53:08,434] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:53:08,519] {logging_mixin.py:115} INFO - [2022-05-24 12:53:08,519] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:53:08,550] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 2.107 seconds
+[2022-05-24 12:53:38,748] {processor.py:153} INFO - Started process (PID=1311) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:53:38,754] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:53:38,759] {logging_mixin.py:115} INFO - [2022-05-24 12:53:38,758] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:53:39,661] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:53:39,862] {logging_mixin.py:115} INFO - [2022-05-24 12:53:39,862] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:53:39,955] {logging_mixin.py:115} INFO - [2022-05-24 12:53:39,955] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:53:39,989] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.264 seconds
+[2022-05-24 12:54:10,798] {processor.py:153} INFO - Started process (PID=1380) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:54:10,806] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:54:10,809] {logging_mixin.py:115} INFO - [2022-05-24 12:54:10,808] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:54:13,621] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:54:13,823] {logging_mixin.py:115} INFO - [2022-05-24 12:54:13,821] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:54:13,913] {logging_mixin.py:115} INFO - [2022-05-24 12:54:13,913] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:54:13,952] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 3.159 seconds
+[2022-05-24 12:54:44,846] {processor.py:153} INFO - Started process (PID=1441) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:54:44,849] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:54:44,852] {logging_mixin.py:115} INFO - [2022-05-24 12:54:44,851] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:54:45,531] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:54:45,614] {logging_mixin.py:115} INFO - [2022-05-24 12:54:45,610] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:54:45,676] {logging_mixin.py:115} INFO - [2022-05-24 12:54:45,676] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:54:45,762] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 0.944 seconds
+[2022-05-24 12:55:16,628] {processor.py:153} INFO - Started process (PID=1511) to work on /opt/airflow/dags/books_db.py
+[2022-05-24 12:55:16,633] {processor.py:641} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-24 12:55:16,637] {logging_mixin.py:115} INFO - [2022-05-24 12:55:16,637] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-24 12:55:17,549] {processor.py:651} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-24 12:55:17,681] {logging_mixin.py:115} INFO - [2022-05-24 12:55:17,680] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-24 12:55:17,731] {logging_mixin.py:115} INFO - [2022-05-24 12:55:17,731] {dag.py:2919} INFO - Setting next_dagrun for book_db to 2022-05-24T00:00:00+00:00, run_after=2022-05-25T00:00:00+00:00
+[2022-05-24 12:55:17,754] {processor.py:161} INFO - Processing /opt/airflow/dags/books_db.py took 1.135 seconds

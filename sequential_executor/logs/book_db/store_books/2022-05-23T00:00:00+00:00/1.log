@@ -1,0 +1,23 @@
+[2022-05-24 11:23:54,153] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.store_books 2022-05-23T00:00:00+00:00 [queued]>
+[2022-05-24 11:23:54,238] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.store_books 2022-05-23T00:00:00+00:00 [queued]>
+[2022-05-24 11:23:54,242] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-24 11:23:54,245] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-24 11:23:54,247] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-24 11:23:54,356] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): store_books> on 2022-05-23T00:00:00+00:00
+[2022-05-24 11:23:54,403] {standard_task_runner.py:52} INFO - Started process 46 to run task
+[2022-05-24 11:23:54,457] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'book_db', 'store_books', '2022-05-23T00:00:00+00:00', '--job-id', '34', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/books_db.py', '--cfg-path', '/tmp/tmpvg9icby4', '--error-file', '/tmp/tmpjnczy8vt']
+[2022-05-24 11:23:54,482] {standard_task_runner.py:77} INFO - Job 34: Subtask store_books
+[2022-05-24 11:23:55,084] {logging_mixin.py:104} INFO - Running <TaskInstance: book_db.store_books 2022-05-23T00:00:00+00:00 [running]> on host 0f09442c242c
+[2022-05-24 11:23:55,467] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=book_db
+AIRFLOW_CTX_TASK_ID=store_books
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-23T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-23T00:00:00+00:00
+[2022-05-24 11:23:55,591] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py:2779 UserWarning: The spaces in these column names will not be changed. In pandas versions < 0.14, spaces were converted to underscores.
+[2022-05-24 11:23:55,714] {python.py:151} INFO - Done. Returned value was: None
+[2022-05-24 11:23:55,806] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=book_db, task_id=store_books, execution_date=20220523T000000, start_date=20220524T112354, end_date=20220524T112355
+[2022-05-24 11:23:55,965] {taskinstance.py:1265} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-05-24 11:23:56,017] {local_task_job.py:151} INFO - Task exited with return code 0

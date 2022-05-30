@@ -1,0 +1,22 @@
+[2022-05-22 22:04:13,117] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.process_books 2022-05-22T22:03:52.975384+00:00 [queued]>
+[2022-05-22 22:04:13,142] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.process_books 2022-05-22T22:03:52.975384+00:00 [queued]>
+[2022-05-22 22:04:13,143] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 22:04:13,144] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-22 22:04:13,145] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-22 22:04:13,210] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): process_books> on 2022-05-22T22:03:52.975384+00:00
+[2022-05-22 22:04:13,214] {standard_task_runner.py:52} INFO - Started process 120 to run task
+[2022-05-22 22:04:13,220] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'book_db', 'process_books', '2022-05-22T22:03:52.975384+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/books_db.py', '--cfg-path', '/tmp/tmperw4nqg7', '--error-file', '/tmp/tmpm0lxq9rg']
+[2022-05-22 22:04:13,223] {standard_task_runner.py:77} INFO - Job 5: Subtask process_books
+[2022-05-22 22:04:13,309] {logging_mixin.py:104} INFO - Running <TaskInstance: book_db.process_books 2022-05-22T22:03:52.975384+00:00 [running]> on host 929b3ffb0527
+[2022-05-22 22:04:13,450] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=book_db
+AIRFLOW_CTX_TASK_ID=process_books
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-22T22:03:52.975384+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-05-22T22:03:52.975384+00:00
+[2022-05-22 22:04:13,466] {python.py:151} INFO - Done. Returned value was: [{'Book Title': 'Microsoft Excel Inside Out', 'ISBN No.': '9780137559534', 'Price': '$42.16'}, {'Book Title': 'Windows Internals, Part 2, 7th Edition', 'ISBN No.': '9780135462409', 'Price': '$53.49'}, {'Book Title': 'Microsoft Office Inside Out', 'ISBN No.': '9780137564095', 'Price': '$36.93'}, {'Book Title': 'Microsoft Excel Step by Step', 'ISBN No.': '9780137564279', 'Price': '$30.62'}, {'Book Title': 'Microsoft Excel Data Analysis and Business Modeling, 7th Edition', 'ISBN No.': '9780137613663', 'Price': '$34.87'}, {'Book Title': 'Intermediate Statistics with R', 'ISBN No.': '1001651662833', 'Price': '$0.00'}, {'Book Title': 'Professional Scrum Development with Azure DevOps', 'ISBN No.': '9780136789239', 'Price': '$39.99'}, {'Book Title': 'Developing Microservices Architecture on Microsoft Azure with Open Source Technologies', 'ISBN No.': '9780136819387', 'Price': '$41.93'}, {'Book Title': 'Begin to Code with JavaScript', 'ISBN No.': '9780136870722', 'Price': '$19.11'}, {'Book Title': 'Microsoft Azure Data Solutions', 'ISBN No.': '9780137252503', 'Price': '$36.23'}, {'Book Title': 'Ansible Succinctly', 'ISBN No.': '9781642002164', 'Price': '$0.00'}, {'Book Title': 'Bash Guide', 'ISBN No.': '1001651514138', 'Price': '$0.00'}, {'Book Title': 'Taking Kubernetes from Test to Production', 'ISBN No.': '1001651514256', 'Price': '$0.00'}, {'Book Title': 'Powerful Command-Line Applications in Go', 'ISBN No.': '9781680506969', 'Price': '$41.41'}, {'Book Title': 'Pythonic Programming', 'ISBN No.': '9781680508611', 'Price': '$16.98'}, {'Book Title': 'Go Brain Teasers', 'ISBN No.': '9781680508994', 'Price': '$13.76'}, {'Book Title': 'Python Brain Teasers', 'ISBN No.': '9781680509007', 'Price': '$18.95'}, {'Book Title': 'Pandas Brain Teasers', 'ISBN No.': '9781680509014', 'Price': '$8.28'}, {'Book Title': 'Flutter UI Succinctly', 'ISBN No.': '9781642002195', 'Price': '$0.00'}, {'Book Title': 'Developing Graphics Frameworks with Python and OpenGL', 'ISBN No.': '9781032021461', 'Price': '$0.00'}]
+[2022-05-22 22:04:13,584] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=book_db, task_id=process_books, execution_date=20220522T220352, start_date=20220522T220413, end_date=20220522T220413
+[2022-05-22 22:04:13,827] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-05-22 22:04:13,843] {local_task_job.py:151} INFO - Task exited with return code 0

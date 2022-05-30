@@ -1,0 +1,38 @@
+[2022-05-29 19:01:50,483] {scheduler_job.py:182} INFO - Started process (PID=21) to work on /opt/airflow/dags/books_db.py
+[2022-05-29 19:01:50,510] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-29 19:01:50,520] {logging_mixin.py:104} INFO - [2022-05-29 19:01:50,520] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-29 19:01:57,390] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['book_db']) retrieved from /opt/airflow/dags/books_db.py
+[2022-05-29 19:01:57,472] {logging_mixin.py:104} INFO - [2022-05-29 19:01:57,472] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-29 19:01:57,608] {logging_mixin.py:104} INFO - [2022-05-29 19:01:57,608] {dag.py:2306} INFO - Setting next_dagrun for book_db to 2022-05-28 00:00:00+00:00
+[2022-05-29 19:01:57,759] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/books_db.py took 7.292 seconds
+[2022-05-29 19:04:27,219] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/books_db.py
+[2022-05-29 19:04:27,222] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/books_db.py for tasks to queue
+[2022-05-29 19:04:27,259] {logging_mixin.py:104} INFO - [2022-05-29 19:04:27,259] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/books_db.py
+[2022-05-29 19:05:04,333] {logging_mixin.py:104} INFO - [2022-05-29 19:05:04,064] {timeout.py:36} ERROR - Process timed out, PID: 33
+[2022-05-29 19:05:06,821] {logging_mixin.py:104} INFO - [2022-05-29 19:05:04,347] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/books_db.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/books_db.py", line 12, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/__init__.py", line 51, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/api.py", line 15, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/arrays/__init__.py", line 7, in <module>
+    from pandas.core.arrays.categorical import Categorical
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/arrays/categorical.py", line 187, in <module>
+    class Categorical(NDArrayBackedExtensionArray, PandasObject, ObjectStringArrayMixin):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/arrays/categorical.py", line 2127, in Categorical
+    cls: Type[CategoricalT], to_concat: Sequence[CategoricalT], axis: int = 0
+  File "/usr/local/lib/python3.8/typing.py", line 258, in inner
+    return cached(*args, **kwds)
+  File "/usr/local/lib/python3.8/typing.py", line 685, in __getitem__
+    params = tuple(_type_check(p, msg) for p in params)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/books_db.py after 30.0s, PID: 33
+[2022-05-29 19:05:10,937] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/books_db.py
+[2022-05-29 19:05:17,873] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/books_db.py took 50.764 seconds
