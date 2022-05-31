@@ -1,0 +1,25 @@
+[2022-05-31 19:15:28,619] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.check_api 2022-05-30T00:00:00+00:00 [queued]>
+[2022-05-31 19:15:28,644] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: book_db.check_api 2022-05-30T00:00:00+00:00 [queued]>
+[2022-05-31 19:15:28,646] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-31 19:15:28,647] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-31 19:15:28,648] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-31 19:15:28,708] {taskinstance.py:1107} INFO - Executing <Task(HttpSensor): check_api> on 2022-05-30T00:00:00+00:00
+[2022-05-31 19:15:28,712] {standard_task_runner.py:52} INFO - Started process 27 to run task
+[2022-05-31 19:15:28,718] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'book_db', 'check_api', '2022-05-30T00:00:00+00:00', '--job-id', '47', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/books_db.py', '--cfg-path', '/tmp/tmp6n0k8_ek', '--error-file', '/tmp/tmpi97l0nzt']
+[2022-05-31 19:15:28,721] {standard_task_runner.py:77} INFO - Job 47: Subtask check_api
+[2022-05-31 19:15:28,833] {logging_mixin.py:104} INFO - Running <TaskInstance: book_db.check_api 2022-05-30T00:00:00+00:00 [running]> on host 7a1d03ce9394
+[2022-05-31 19:15:28,964] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=book_db
+AIRFLOW_CTX_TASK_ID=check_api
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-30T00:00:00+00:00
+[2022-05-31 19:15:28,966] {http.py:101} INFO - Poking: new
+[2022-05-31 19:15:28,980] {base.py:69} INFO - Using connection to: id: book_api. Host: https://api.itbook.store/1.0/, Port: None, Schema: , Login: , Password: None, extra: {}
+[2022-05-31 19:15:28,983] {http.py:140} INFO - Sending 'GET' to url: https://api.itbook.store/1.0/new
+[2022-05-31 19:15:29,629] {base.py:248} INFO - Success criteria met. Exiting.
+[2022-05-31 19:15:29,645] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=book_db, task_id=check_api, execution_date=20220530T000000, start_date=20220531T191528, end_date=20220531T191529
+[2022-05-31 19:15:29,783] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-05-31 19:15:29,815] {local_task_job.py:151} INFO - Task exited with return code 0
